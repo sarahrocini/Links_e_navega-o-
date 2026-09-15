@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f3f9;
+    color: rgb(45, 40, 55);
+    padding: 20px 40px;
+}
+
+#cabecalho-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5px;
+    background-color: #ffffff;
+    border-bottom: 2px solid rgb(230, 220, 240);
+}
+
+.subtitulo-header {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #8e44ad;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 20pt;
+    color: rgb(74, 21, 75);
+}
+
+.menu-header {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-header span {
+    font-size: 11pt;
+    font-weight: 600;
+    color: rgb(100, 100, 120);
+    cursor: pointer;
+}
+
+#Tela-inicial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    background-color: #e8dff5;
+    padding: 40px;
+    margin: 25px 0 40px 0;
+    border-radius: 8px;
+}
+
+.textos-apresentacao {
+    flex: 1;
+}
+
+.categoria-destaque {
+    font-size: 10pt;
+    font-weight: bold;
+    color: rgb(192, 57, 43);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#Tela-inicial h2 {
+    font-size: 28pt;
+    font-weight: 800;
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+#Tela-inicial p {
+    font-size: 11pt;
+    color: rgb(80, 80, 95);
+    line-height: 1.5;
+}
+
+.imagem-destaque {
+    width: 400px;
+    height: 250px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+#galeria {
+    margin-top: 30px;
+}
+
+#galeria h2 {
+    font-size: 24pt;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 1 calc(33.333% - 20px);
+    min-width: 250px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    font-size: 13pt;
+    font-weight: bold;
+    color: rgb(40, 40, 60);
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 10pt;
+    color: rgb(110, 110, 120);
+    line-height: 1.4;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    border-top: 1px solid #e0e0e0;
+    font-size: 10pt;
+    color: rgb(130, 130, 140);
+}
